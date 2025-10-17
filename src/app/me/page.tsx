@@ -15,9 +15,6 @@ import React from "react";
 export default function Me() {
   return (
     <div className="flex flex-col gap-y-4">
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight text-balance">
-        Ibrahim
-      </h1>
       <div>
         <p className="leading-7 [&:not(:first-child)]:mt-6">
           I am a recent Information Technology graduate from Monash University,
