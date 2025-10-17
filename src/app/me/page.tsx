@@ -71,7 +71,6 @@ export default function Me() {
         <div>
           <Item variant="outline" className="border-0" size="sm" asChild>
             <a href="https://github.com/ibb2/pMusic">
-              <ItemMedia>{/*<BadgeCheckIcon className="size-5" />*/}</ItemMedia>
               <ItemContent>
                 <ItemTitle>
                   <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -104,7 +103,6 @@ export default function Me() {
         <div>
           <Item variant="outline" className="border-0" size="sm" asChild>
             <a href="https://github.com/ibb2/xedmail">
-              <ItemMedia>{/*<BadgeCheckIcon className="size-5" />*/}</ItemMedia>
               <ItemContent>
                 <ItemTitle>
                   <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
@@ -142,7 +140,6 @@ export default function Me() {
         <div>
           <Item variant="outline" className="border-0" size="sm" asChild>
             <a href="#">
-              <ItemMedia>{/*<BadgeCheckIcon className="size-5" />*/}</ItemMedia>
               <ItemContent>
                 <ItemTitle>
                   <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
