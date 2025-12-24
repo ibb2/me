@@ -42,8 +42,8 @@ export default function Me() {
                   </h3>
                 </ItemTitle>
                 <ItemDescription>
-                  Created using Next.js, React, Typescript, and Tailwind CSS,
-                  and deployed on Vercel.
+                  A note taking app blending the block based nature of Notion
+                  and advanced handwriting of OneNote.
                 </ItemDescription>
               </ItemContent>
               <ItemActions>
@@ -78,8 +78,7 @@ export default function Me() {
                   </h3>
                 </ItemTitle>
                 <ItemDescription>
-                  A desktop music client for Plex that allows users to play
-                  music from their Plex library.
+                  A cross-platform desktop music client for Plex.
                 </ItemDescription>
               </ItemContent>
               <ItemActions>
@@ -88,16 +87,18 @@ export default function Me() {
             </a>
           </Item>
           <p className="leading-7 [&:not(:first-child)]:mt-6 font-medium">
-            pMusic is a cross-platform desktop music client for Plex, built with
-            C#, .NET, and Avalonia. It provides a lightweight, modern interface
-            for browsing and playing music libraries with support for multiple
-            audio formats and advanced playback controls.
+            pMusic is a cross-platform desktop music client for Plex, built with{" "}
+            <s>C#, .NET, and Avalonia</s> Electron, and Python (FastAPI). It
+            provides a crossplatform, modern interface for browsing and playing
+            music libraries with support for multiple audio formats and advanced
+            playback controls.
           </p>
           <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-            <li>Cross-platform via AvaloniaUI</li>
-            <li>Persistent user data via EFCore and SQLite</li>
+            <li>
+              Cross-platform via <s>AvaloniaUI</s> Electron
+            </li>
+            {/*<li>Persistent user data via EFCore and SQLite</li>*/}
             <li>OAauth2 authentication and Plex API Integration</li>
-            <li>Built with MVVM Architecture and LINQ Queries</li>
           </ul>
         </div>
         <div>
@@ -110,9 +111,8 @@ export default function Me() {
                   </h3>
                 </ItemTitle>
                 <ItemDescription>
-                  A web based email client for Gmail, built with Next.js,
-                  Typescript, React, Tailwind, FastAPI (Python), and .NET
-                  (ASP.NET Minimal API)
+                  A web based email client for Gmail with a unified inbox,
+                  inspired by Spark and Superhuman.
                 </ItemDescription>
               </ItemContent>
               <ItemActions>
